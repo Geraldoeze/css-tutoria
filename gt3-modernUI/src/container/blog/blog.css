@@ -49,7 +49,7 @@
     }
 }
 
-@media screen and (max-width: 650px) { 
+@media screen and (max-width: 650px) {
     .gpt3__blog-container_groupB {
         grid-template-columns: repeat(1, 1fr);
     }
@@ -62,7 +62,7 @@
     }
 }
 
-@media screen and (max-width: 500px) { 
+@media screen and (max-width: 550px) { 
     .gpt3__blog-heading h1 {
         font-size: 34px;
         line-height: 42px;
