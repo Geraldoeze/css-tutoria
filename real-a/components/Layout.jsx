@@ -9,6 +9,7 @@ const Layout = ({ children }) => {
         
           <Head>
               <title>Real Estate App</title> 
+              <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
           </Head>
           <Box maxWidth="1280px" m="auto">
             <header>

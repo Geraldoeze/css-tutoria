@@ -2,12 +2,12 @@ import Head from 'next/head';
 import Link from 'next/link';
 import Image from 'next/image';
 import { Flex, Box, Text, Button } from '@chakra-ui/react';
-import { baseUrl, fetchApi } from './utils/fetchApi';
+import { baseUrl, fetchApi } from '../utils/fetchApi';
 import Property from '../components/Property';
 
 
 const Banner = ({purpose, title1, title2, desc1, desc2, imageUrl, linkName, buttonText}) => (
-  <Flex flexWrap="wrap" justifyContent="center" alignItems="center" m="10" >
+  <Flex fontFamily='Montserrat' flexWrap="wrap" justifyContent="center" alignItems="center" m="10" >
     <Image src={imageUrl} width={500} height={300} alt="banner" />
     <Box p="5">
       <Text color="gray.500" fontSize="sm" fontWeight="medium">{purpose}</Text>
