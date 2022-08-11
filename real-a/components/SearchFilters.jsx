@@ -47,7 +47,7 @@ const searchProps = (filterValues) => {
               </Box>
               )
               
-                     } )}
+               } )}
       </Flex>
      );
 }
