@@ -1,3 +1,12 @@
+#product-overview {
+    background-color: #ff1b68;
+}
+
 h1 {
-    background-color: red;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section-title {
+    color: #2ddf5c;
 }
